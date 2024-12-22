@@ -1,0 +1,174 @@
+
+------------ПРОТОКОЛ------------
+ ----21.12.24 12:48:23----
+ 
+ ---- Параметры ---- 
+
+-in: D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI.txt
+-out: D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI.txt.out
+-log: D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI.txt.log
+
+---- Исходные данные ----
+chief|
+[|
+var int a;|
+a=5+5;|
+reout 0;|
+];|
+
+
+Всего символов: 44
+
+Всего строк: 7
+
+Таблица лексем:
+
+1  m[
+2  vti;
+3  i=lol;
+4  rl;
+5  ];
+6  
+Таблица идентификаторов:
+
+№    | Идентификатор | Тип данных | Тип идентификатора | Индекс в ТЛ |  Значение   
+
+0000    chiefa       integer   переменная     5          0                 
+0001    L1           integer   литерал        9          5                 
+0002    OP1          -         оператор       9          +                 
+0003    L3           integer   литерал        13         0                 
+
+Количество идентификаторов:
+ 4
+Шаг :Правило             Входная лента                 Стек                
+0   : S->m[NrE;];         m[vti;i=lol;rl;];             S$                  
+0   : SAVESTATE:          1
+0   :                     m[vti;i=lol;rl;];             m[NrE;];$           
+1   :                     [vti;i=lol;rl;];;             [NrE;];$            
+2   :                     vti;i=lol;rl;];;;             NrE;];$             
+3   : N->vti;             vti;i=lol;rl;];;;             NrE;];$             
+3   : SAVESTATE:          2
+3   :                     vti;i=lol;rl;];;;             vti;rE;];$          
+4   :                     ti;i=lol;rl;];;;;             ti;rE;];$           
+5   :                     i;i=lol;rl;];;;;;             i;rE;];$            
+6   :                     ;i=lol;rl;];;;;;;             ;rE;];$             
+7   :                     i=lol;rl;];;;;;;;             rE;];$              
+8   : TS_NOK / NS_NORULECHAIN
+8   : RESSTATE            
+8   :                     vti;i=lol;rl;];;;             NrE;];$             
+9   : N->vti;N            vti;i=lol;rl;];;;             NrE;];$             
+9   : SAVESTATE:          2
+9   :                     vti;i=lol;rl;];;;             vti;NrE;];$         
+10  :                     ti;i=lol;rl;];;;;             ti;NrE;];$          
+11  :                     i;i=lol;rl;];;;;;             i;NrE;];$           
+12  :                     ;i=lol;rl;];;;;;;             ;NrE;];$            
+13  :                     i=lol;rl;];;;;;;;             NrE;];$             
+14  : N->i=E;N            i=lol;rl;];;;;;;;             NrE;];$             
+14  : SAVESTATE:          3
+14  :                     i=lol;rl;];;;;;;;             i=E;NrE;];$         
+15  :                     =lol;rl;];;;;;;;;             =E;NrE;];$          
+16  :                     lol;rl;];;;;;;;;;             E;NrE;];$           
+17  : E->l                lol;rl;];;;;;;;;;             E;NrE;];$           
+17  : SAVESTATE:          4
+17  :                     lol;rl;];;;;;;;;;             l;NrE;];$           
+18  :                     ol;rl;];;;;;;;;;;             ;NrE;];$            
+19  : TS_NOK / NS_NORULECHAIN
+19  : RESSTATE            
+19  :                     lol;rl;];;;;;;;;;             E;NrE;];$           
+20  : E->lM               lol;rl;];;;;;;;;;             E;NrE;];$           
+20  : SAVESTATE:          4
+20  :                     lol;rl;];;;;;;;;;             lM;NrE;];$          
+21  :                     ol;rl;];;;;;;;;;;             M;NrE;];$           
+22  : M->oE               ol;rl;];;;;;;;;;;             M;NrE;];$           
+22  : SAVESTATE:          5
+22  :                     ol;rl;];;;;;;;;;;             oE;NrE;];$          
+23  :                     l;rl;];;;;;;;;;;;             E;NrE;];$           
+24  : E->l                l;rl;];;;;;;;;;;;             E;NrE;];$           
+24  : SAVESTATE:          6
+24  :                     l;rl;];;;;;;;;;;;             l;NrE;];$           
+25  :                     ;rl;];;;;;;;;;;;;             ;NrE;];$            
+26  :                     rl;];;;;;;;;;;;;;             NrE;];$             
+27  : TNS_NORULECHAIN/NS_NORULE
+27  : RESSTATE            
+27  :                     l;rl;];;;;;;;;;;;             E;NrE;];$           
+28  : E->lM               l;rl;];;;;;;;;;;;             E;NrE;];$           
+28  : SAVESTATE:          6
+28  :                     l;rl;];;;;;;;;;;;             lM;NrE;];$          
+29  :                     ;rl;];;;;;;;;;;;;             M;NrE;];$           
+30  : TNS_NORULECHAIN/NS_NORULE
+30  : RESSTATE            
+30  :                     l;rl;];;;;;;;;;;;             E;NrE;];$           
+31  : TNS_NORULECHAIN/NS_NORULE
+31  : RESSTATE            
+31  :                     ol;rl;];;;;;;;;;;             M;NrE;];$           
+32  : M->oEM              ol;rl;];;;;;;;;;;             M;NrE;];$           
+32  : SAVESTATE:          5
+32  :                     ol;rl;];;;;;;;;;;             oEM;NrE;];$         
+33  :                     l;rl;];;;;;;;;;;;             EM;NrE;];$          
+34  : E->l                l;rl;];;;;;;;;;;;             EM;NrE;];$          
+34  : SAVESTATE:          6
+34  :                     l;rl;];;;;;;;;;;;             lM;NrE;];$          
+35  :                     ;rl;];;;;;;;;;;;;             M;NrE;];$           
+36  : TNS_NORULECHAIN/NS_NORULE
+36  : RESSTATE            
+36  :                     l;rl;];;;;;;;;;;;             EM;NrE;];$          
+37  : E->lM               l;rl;];;;;;;;;;;;             EM;NrE;];$          
+37  : SAVESTATE:          6
+37  :                     l;rl;];;;;;;;;;;;             lMM;NrE;];$         
+38  :                     ;rl;];;;;;;;;;;;;             MM;NrE;];$          
+39  : TNS_NORULECHAIN/NS_NORULE
+39  : RESSTATE            
+39  :                     l;rl;];;;;;;;;;;;             EM;NrE;];$          
+40  : TNS_NORULECHAIN/NS_NORULE
+40  : RESSTATE            
+40  :                     ol;rl;];;;;;;;;;;             M;NrE;];$           
+41  : TNS_NORULECHAIN/NS_NORULE
+41  : RESSTATE            
+41  :                     lol;rl;];;;;;;;;;             E;NrE;];$           
+42  : TNS_NORULECHAIN/NS_NORULE
+42  : RESSTATE            
+42  :                     i=lol;rl;];;;;;;;             NrE;];$             
+43  : N->i=E;             i=lol;rl;];;;;;;;             NrE;];$             
+43  : SAVESTATE:          3
+43  :                     i=lol;rl;];;;;;;;             i=E;rE;];$          
+44  :                     =lol;rl;];;;;;;;;             =E;rE;];$           
+45  :                     lol;rl;];;;;;;;;;             E;rE;];$            
+46  : E->l                lol;rl;];;;;;;;;;             E;rE;];$            
+46  : SAVESTATE:          4
+46  :                     lol;rl;];;;;;;;;;             l;rE;];$            
+47  :                     ol;rl;];;;;;;;;;;             ;rE;];$             
+48  : TS_NOK / NS_NORULECHAIN
+48  : RESSTATE            
+48  :                     lol;rl;];;;;;;;;;             E;rE;];$            
+49  : E->lM               lol;rl;];;;;;;;;;             E;rE;];$            
+49  : SAVESTATE:          4
+49  :                     lol;rl;];;;;;;;;;             lM;rE;];$           
+50  :                     ol;rl;];;;;;;;;;;             M;rE;];$            
+51  : M->oE               ol;rl;];;;;;;;;;;             M;rE;];$            
+51  : SAVESTATE:          5
+51  :                     ol;rl;];;;;;;;;;;             oE;rE;];$           
+52  :                     l;rl;];;;;;;;;;;;             E;rE;];$            
+53  : E->l                l;rl;];;;;;;;;;;;             E;rE;];$            
+53  : SAVESTATE:          6
+53  :                     l;rl;];;;;;;;;;;;             l;rE;];$            
+54  :                     ;rl;];;;;;;;;;;;;             ;rE;];$             
+55  :                     rl;];;;;;;;;;;;;;             rE;];$              
+56  :                     l;];;;;;;;;;;;;;;             E;];$               
+57  : E->l                l;];;;;;;;;;;;;;;             E;];$               
+57  : SAVESTATE:          7
+57  :                     l;];;;;;;;;;;;;;;             l;];$               
+58  :                     ;];;;;;;;;;;;;;;;             ;];$                
+59  :                     ];;;;;;;;;;;;;;;;             ];$                 
+60  :                     ;;;;;;;;;;;;;;;;;             ;$                  
+61  :                     ;;;;;;;;;;;;;;;;;             $                   
+62  : 6                   
+63  : ------>LENTA_END    
+------------------------------------------------------------------------------------------   ------
+0   всего строк6, синтаксический анализ выполнен без ошибок
+0   : S->m[NrE;];         
+2   : N->vti;N            
+6   : N->i=E;             
+8   : E->lM               
+9   : M->oE               
+10  : E->l                
+13  : E->l                

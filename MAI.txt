@@ -1,0 +1,6 @@
+chief
+[
+var int a;
+a = 5 + 5;
+reout 0;
+];

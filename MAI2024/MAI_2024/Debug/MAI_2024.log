@@ -1,0 +1,35 @@
+﻿Сборка начата 21.12.2024 12:48:11.
+Уровень детализации журнала: Normal.     1>Проект "D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\MAI_2024.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\MAI_2024.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\MAI_2024.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Polish.cpp
+         Polish.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\MAI_2024.exe" /INCREMENTAL /ILK:"Debug\MAI_2024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\MAI_2024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\MAI_2024.lib" /MACHINE:X86 Debug\CodeGeneration.obj
+         Debug\Error.obj
+         Debug\Ffst.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\LexicalAnalys.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MAI_2024.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\Polish.obj
+         Debug\SemanticAnalys.obj
+         Debug\Split.obj
+         MAI_2024.vcxproj -> D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\MAI_2024.exe
+       FinalizeBuildStatus:
+         Файл "Debug\MAI_2024.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\MAI_2024.tlog\MAI_2024.lastbuildstate".
+     1>Сборка проекта "D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\MAI_2024.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.94
