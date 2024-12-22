@@ -1,0 +1,22 @@
+﻿Сборка начата 21.12.2024 11:41:40.
+Уровень детализации журнала: Normal.     1>Проект "D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\ASM\ASM.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\ASM.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\ASM.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling ASM.asm...
+         cmd.exe /C "C:\Users\User\AppData\Local\Temp\tmpe108ba801a2845909fff174cc78df872.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\ASM.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /TaASM.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\ASM.exe" /INCREMENTAL /ILK:"Debug\ASM.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\ASM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\ASM.lib" /MACHINE:X86 Debug\ASM.obj
+         ASM.vcxproj -> D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\ASM.exe
+       FinalizeBuildStatus:
+         Файл "Debug\ASM.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\ASM.tlog\ASM.lastbuildstate".
+     1>Сборка проекта "D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\ASM\ASM.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.47

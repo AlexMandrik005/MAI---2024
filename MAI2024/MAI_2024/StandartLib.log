@@ -1,0 +1,27 @@
+﻿Сборка начата 03.12.2024 10:51:06.
+Уровень детализации журнала: Normal.     1>Проект "D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\StandartLib\StandartLib.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: каталог Intermediate заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Intermediate.
+     1>InitializeBuildStatus:
+         Обращение к "..\MAI_2024\StandartLib.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\Lib.exe /OUT:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\StandartLib.lib" /NOLOGO /MACHINE:X86 /OUT:"D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\Debug\StandartLib.lib" /MACHINE:X86 /NOLOGO ..\MAI_2024\pch.obj
+         ..\MAI_2024\StandartLib.obj
+         StandartLib.vcxproj -> D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\MAI_2024\Debug\StandartLib.lib
+       FinalizeBuildStatus:
+         Файл "..\MAI_2024\StandartLib.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "..\MAI_2024\StandartLib.tlog\StandartLib.lastbuildstate".
+     1>Сборка проекта "D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\StandartLib\StandartLib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Visual_Lab_3sem\Course_Project_MAI_2024\MAI2024\StandartLib\StandartLib.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: каталог Intermediate заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Intermediate.
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.31
